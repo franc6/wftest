@@ -1,4 +1,4 @@
-name: CreateRelease
+name: Hello
 
 # Create a release with the version number being one greater than the last findable version
 # Controls when the action will run. 
