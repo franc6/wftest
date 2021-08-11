@@ -7,8 +7,10 @@ on:
 env:
   DRY_RUN: false
   REPOSITORIES: |
+    franc6/testwf
   
   WORKFLOW_FILES: |
+    CreateRelease.yml=.github/workflows/
 
 jobs:
   Github_Workflow_Sync:
