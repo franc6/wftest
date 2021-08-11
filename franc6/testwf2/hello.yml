@@ -1,0 +1,13 @@
+name: Hello
+
+on:
+  workflow_dispatch:
+
+jobs:
+  no-op:
+    runs-on: ubuntu-latest
+      steps:
+        - name: Does not run
+          if: 1 == 0
+          run: echo "Hello, world!"
+  
